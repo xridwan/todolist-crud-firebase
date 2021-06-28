@@ -70,6 +70,7 @@ class TodoAdapter : RecyclerView.Adapter<TodoAdapter.TodoViewHolder>() {
 
         builder.setPositiveButton("Update") { _: DialogInterface, _: Int ->
             val ref = FirebaseDatabase.getInstance().getReference("Todos")
+
             val title = binding.etTitle.text.toString().trim()
             val desc = binding.etDesc.text.toString().trim()
 
