@@ -10,7 +10,6 @@ import com.xridwan.todolist.databinding.ActivityCreateTodoBinding
 import com.xridwan.todolist.model.Todo
 
 class CreateTodoActivity : AppCompatActivity(), View.OnClickListener {
-
     private lateinit var binding: ActivityCreateTodoBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {

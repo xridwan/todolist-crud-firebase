@@ -13,7 +13,6 @@ import com.xridwan.todolist.databinding.ActivityCreateSubTodoBinding
 import com.xridwan.todolist.model.SubTodo
 
 class CreateSubTodoActivity : AppCompatActivity(), View.OnClickListener {
-
     private lateinit var binding: ActivityCreateSubTodoBinding
     private lateinit var adapter: SubTodoAdapter
     private lateinit var ref: DatabaseReference
