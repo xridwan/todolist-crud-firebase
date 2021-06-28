@@ -17,7 +17,7 @@ class SubTodoAdapter : RecyclerView.Adapter<SubTodoAdapter.SubTodoViewHolder>() 
         notifyDataSetChanged()
     }
 
-    class SubTodoViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+    inner class SubTodoViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         private val binding = TodoItemLayoutBinding.bind(itemView)
         fun bind(subTodo: SubTodo) {
             with(binding) {
